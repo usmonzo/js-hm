@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        * {
+            background-color: rgb(37, 34, 34);
+            padding: 0px 0px 15px 15px;
+            margin: 0px;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0px auto;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 30px;
+            padding: 20px 10px;
+        }
+
+        .btn {
+            padding: 30px 40px;
+            font-size: 40px;
+            color: white;
+            border-radius: 12px;
+        }
+
+        .colorBox {
+            max-width: 500px;
+            background-color: rgb(255, 0, 0);
+            padding: 192px;
+            border-radius: 12px;
+            font-size: 40px;
+        }
+
+        .main__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .number__box {
+            padding: 0px 70px;
+            font-size: 30px;
+            /* border: 2px solid white; */
+            margin: auto 20px;
+            color: #fff;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            margin-top: 120px;
+            margin-bottom: 0px;
+        }
+
+        .footer h2 {
+            color: #fff;
+            /* border: 2px solid #fff; */
+            font-size: 20px;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main__content">
+            <div class="content">
+                <button id="minus" class="btn btn-mines"> - </button>
+                <div id="numberBox" class="number__box">
+                    1
+                </div>
+                <button id="plus" class="btn btn-pluss"> + </button>
+            </div>
+            <div id="colorBox" class="colorBox">
+                no bugs 😉
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+
+    </footer>
+    <script src="/DOM_JS.js"></script>
+</body>
+
+</html>
