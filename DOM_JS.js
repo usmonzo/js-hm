@@ -7,6 +7,11 @@ let numberBox = document.getElementById("numberBox");
 let numbers = 1;
 btnPlus.addEventListener("click", function addNumber() {
   numbers++;
+  if (numbers == 9) {
+    btnPlus.disabled = true;
+  } else {
+    btnPlus.disabled = false;
+  }
   if (numbers == 10) {
     numbers = 1;
   }
@@ -17,6 +22,11 @@ btnPlus.addEventListener("click", function addNumber() {
 
 btnMinus.addEventListener("click", function minusNumber() {
   numbers--;
+  if (numbers == 1) {
+    btnMinus.disabled = true;
+  } else {
+    btnMinus.disabled = false;
+  }
   if (numbers == 0) {
     numbers = 9;
   }
