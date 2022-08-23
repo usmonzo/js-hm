@@ -1,56 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-.hide {
-  display: none;
-}
-* {
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
-  padding: 0px;
-  margin: 0px;
-}
-
-.container {
-  max-width: 1300px;
-  margin: 0px auto;
-  padding: 10px;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#h1 {
-  font-size: 40px;
-  padding-bottom: 50px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-}
-#search {
-  font-size: 25px;
-  padding: 20px 50px;
-  margin-bottom: 20px;
-  border-radius: 12px;
-}
-
-/* .ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, min-max(150px, 1fr));
-} */
-
-.ul li {
-  border: 1px solid black;
-  font-size: 20px;
-  font-weight: 300;
-  padding: 10px;
-  margin: 20px;
-}
-.ul li p {
-  font-weight: 100;
-}
-/* 
 // Array
 // map 
 // filter
@@ -206,4 +153,17 @@ let findBook = books.filter((item) => {
 
 // let btn = document.createElement('button');
 // btn.innerHTML = 'Send';
- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
