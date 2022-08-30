@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Economica:wght@400;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Aboreto", cursive;
+  font-family: "Economica", sans-serif;
+  box-sizing: border-box;
+  transition: all 0.1s ease;
+}
+body {
+  background-color: gray;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 10px 0px;
+  margin: 0px auto;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.content h1 {
+  font-size: 90px;
+  padding-bottom: 20px;
+}
+.tl__body {
+  width: 330px;
+  height: 930px;
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 220px;
+  padding: 30px;
+}
+
+.cyrcle {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.334);
+}
+.cyrcle::after {
+  /* background-color: #fff; */
+  border-right: 29px solid rgba(255, 255, 255, 0.233);
+  border-radius: 100%;
+  top: 25px;
+  left: 0px;
+  position: absolute;
+  content: " ";
+  width: 200px;
+  height: 200px;
+}
+.counter {
+  font-size: 150px;
+  color: white;
+  position: absolute;
+  top: 40px;
+  left: 70px;
+}
+.red-counter {
+  color: white;
+}
+.green-counter {
+  color: white;
+}
+.yellow-counter {
+  color: black;
+}
+/* .green {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  background-color: rgba(0, 0, 0, 0.334);
+  margin-bottom: 50px;
+}
+
+.yellow {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+
+  background-color: rgba(0, 0, 0, 0.334);
+}
+.red {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+
+  background-color: rgba(0, 0, 0, 0.334);
+  margin-top: 50px;
+} */
