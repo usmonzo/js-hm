@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap");
+
+* {
+  font-family: "Economica", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+#wall {
+  background: url(/701734.png), repeat;
+  /* background-size: 100px; */
+}
+.container {
+  max-width: 1300px;
+  padding: 0% 10%;
+}
+.clock__body {
+  /* background-color: rgba(255, 255, 255, 0.166); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 190px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+#sessions {
+  padding-left: 60px;
+  color: rgba(0, 0, 0, 0.447);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  width: 900px;
+  color: black;
+}
+.date__body {
+  /* background-color: rgba(255, 255, 255, 0.166); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 200px;
+  font-size: 90px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
