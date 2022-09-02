@@ -58,3 +58,40 @@ body {
   padding: 10px;
   width: 200px;
 }
+
+/* mini_online_shop */
+#mini_online_shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.product_name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.product_images {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.product_images img {
+  max-width: 200px;
+}
+.category {
+  padding-bottom: 20px;
+}
+.product {
+  padding: 20px;
+  width: 500px;
+  border: 2px solid white;
+}
+
+.info {
+  font-size: 25px;
+  margin: 20px;
+  line-height: 1.5;
+}
